@@ -34,6 +34,7 @@ class PostsController < ApplicationController
 		else
 			render 'edit'
 		end
+	end
 	
 	private
 	  def post_params
